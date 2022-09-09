@@ -3,22 +3,21 @@
 */
 #include <stdio.h>
 /*
- * main - Entry point of our applicatio
- * Description: This program prints out the size
- * of each variable type in c programming
- * Return: Alwaus 0.
+ * main - 		Entry point of our applicatio
+ * Description: 	This program prints out the size of each variable type in c programming
+ * Return: 		Alwaus 0.
  */
 int main(void)
 	/*
-	 * main - Entry poinr
-	 * Description: This print out some letters
-	 * Return: alway 0.
+	 * main - 		Entry point
+	 * Description: 	'This print out some letters'
+	 * Return: 		alway 0.
 	 */
 {
-	/*
-	 * main - Entry function
-	 * Description: This print out some letters
-	 * Return: always 0
+	/**
+	 * main - 		Entry function
+	 * Description: 	'This print out some letters'
+	 * Return: 		always 0
 	 */
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
 	printf("Size of an int: %zu byte(s)\n", sizeof(int));

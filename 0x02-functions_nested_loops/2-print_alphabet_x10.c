@@ -19,11 +19,11 @@ void print_alphabet_x10(void)
 
 		while (letter <= 'z')
 		{
-			putchar(letter);
+			_putchar(letter);
 			letter++;
 		}
 
-		putchar('\n');
+		_putchar('\n');
 		i++;
 	}
 

@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - check to see if its a positive number
- * 
+ *
  * @c: value we are checking
  *
  * Return: 1 if the number is a digit, 0 otherwise.

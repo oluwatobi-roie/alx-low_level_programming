@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 /**
  * malloc_checked - function that allocate memory using malloc
  *

@@ -21,7 +21,7 @@ int *array_range(int min, int max)
 		return (NULL);
 
 	sum = max - min;
-	output = maloc(sizeof(*output) * (sum + 1));
+	output = malloc(sizeof(*output) * (sum + 1));
 
 	if (output == NULL)
 		return (NULL);

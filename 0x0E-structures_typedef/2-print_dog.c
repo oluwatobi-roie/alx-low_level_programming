@@ -6,7 +6,7 @@
  * @d: a pointer to the structure dog
  *
  * description: if an element of d is NULL, print nil
- * instead of this element. 
+ * instead of this element.
  *
  */
 

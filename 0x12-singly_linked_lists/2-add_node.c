@@ -4,7 +4,7 @@
  * add_node - ads a new note at the begining of the list
  * @head: head of the list
  * @str: string to be stored in the list
- * Return: address of the head. 
+ * Return: address of the head.
  */
 
 list_t *add_node(list_t **head, const char *str)
@@ -25,6 +25,6 @@ list_t *add_node(list_t **head, const char *str)
 	new_data->next = *head;
 	*head = new;
 
-	return(*head);
+	return (*head);
 }
 

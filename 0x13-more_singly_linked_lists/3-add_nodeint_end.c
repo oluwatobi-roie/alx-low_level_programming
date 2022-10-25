@@ -6,7 +6,7 @@
  * @head: the target element on the list
  * @n: data of the element.
  *
- * Return: address od the new node created. 
+ * Return: address od the new node created.
  */
 
 listint_t *add_nodeint_end(listint_t **head, const int n)
@@ -32,5 +32,5 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 
 		last_node->next = new_node;
 	}
-	return(new_node);
+	return (new_node);
 }

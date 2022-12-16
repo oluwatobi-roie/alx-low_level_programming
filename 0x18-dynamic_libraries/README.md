@@ -1,1 +1,1 @@
-Here is a readme file for dynamic libraries in C
+This is a new Readme for document
